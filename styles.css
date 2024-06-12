@@ -1,0 +1,84 @@
+/* styles.css */
+
+body {
+  background-color: #204b3a;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #2c2c2c80;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar img {
+  height: 30px;
+  width: auto;
+}
+
+.profile,
+.preset,
+.tasks {
+  margin: 20px;
+}
+
+.profile img {
+  height: 70px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  font-size: 25px;
+  color: #204b3a;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #204b3a;
+  color: white;
+  border: 1px solid white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h1,
+h3 {
+  margin: 10px 0;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 25px;
+}
