@@ -13,21 +13,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
+  height: 50px;
 }
 
 .navbar h1 {
   margin: 0;
+  padding-top: 30px;
 }
 
 .navbar img {
   height: 30px;
   width: auto;
-  position: relative; 
+  position: relative;
+  padding-top: 10px;
 }
 .move-image {
   position: absolute;
-  top: -50px; /* Move the image 0px from the top of the container */
+  top: -40px; /* Move the image 0px from the top of the container */
   left: 1420px; /* Move the image 100px from the left of the container */
 }
 
@@ -44,23 +47,20 @@ body {
   margin: 70px;
   margin-bottom: -10px;
   margin-top: -50px;
-  
 }
-.preset{
+.preset {
   margin: 70px;
   margin-top: -150px;
-  
 }
 
 .profile img {
   position: relative;
-  height: 300px;
+  height: 200px;
   width: auto;
   display: inline-block;
   margin-bottom: 10px;
   top: -40px;
 }
-
 
 button {
   background-color: white;
@@ -82,10 +82,11 @@ button:hover {
 
 h1 {
   font-family: Verdana;
-  font-size: 55px;
+  font-size: 40px;
 }
-h5{
-  margin-top: 20px;
+h5 {
+  margin-top: 30px;
+  padding-bottom: 10px;
   font-family: Verdana;
   font-size: 55px;
   transform: translateX(70px);
@@ -95,18 +96,16 @@ h3 {
   font-size: 25px;
   transform: translateX(230px);
   position: relative; /* Use relative positioning */
-  bottom:200px; /* Move the line to the right by 20px */
+  bottom: 200px; /* Move the line to the right by 20px */
   margin: 70px;
-
 }
-
 
 h1,
 h3 {
   margin: 20px;
 }
 
-hr { 
+hr {
   border: 1px solid white;
   width: 980px;
   transform: translateY(-130px);
@@ -120,8 +119,6 @@ hr {
   position: relative;
   width: 775px;
 }
-
-
 
 input[type="checkbox"] {
   margin-right: 10px;
