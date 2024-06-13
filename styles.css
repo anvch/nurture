@@ -3,7 +3,7 @@
 body {
   background-color: #204b3a;
   color: white;
-  font-family: sans-serif;
+  font-family: Karla;
   margin: 0;
   padding: 0;
 }
@@ -23,20 +23,44 @@ body {
 .navbar img {
   height: 30px;
   width: auto;
+  position: relative; 
+}
+.move-image {
+  position: absolute;
+  top: -50px; /* Move the image 0px from the top of the container */
+  left: 1420px; /* Move the image 100px from the left of the container */
+}
+
+.profile .round-image {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the element */
 }
 
 .profile,
 .preset,
 .tasks {
-  margin: 20px;
+  margin: 70px;
+  margin-bottom: -10px;
+  margin-top: -50px;
+  
+}
+.preset{
+  margin: 70px;
+  margin-top: -150px;
+  
 }
 
 .profile img {
-  height: 70px;
+  position: relative;
+  height: 300px;
   width: auto;
   display: inline-block;
   margin-bottom: 10px;
+  top: -40px;
 }
+
 
 button {
   background-color: white;
@@ -51,30 +75,60 @@ button {
 }
 
 button:hover {
-  background-color: #204b3a;
+  background-color: #cbdebb;
   color: white;
   border: 1px solid white;
 }
 
 h1 {
-  font-size: 40px;
+  font-family: Verdana;
+  font-size: 55px;
+}
+h5{
+  margin-top: 20px;
+  font-family: Verdana;
+  font-size: 55px;
+  transform: translateX(70px);
 }
 
 h3 {
   font-size: 25px;
+  transform: translateX(230px);
+  position: relative; /* Use relative positioning */
+  bottom:200px; /* Move the line to the right by 20px */
+  margin: 70px;
+
 }
+
 
 h1,
 h3 {
-  margin: 10px 0;
+  margin: 20px;
 }
 
-hr {
+hr { 
   border: 1px solid white;
+  width: 980px;
+  transform: translateY(-130px);
+  position: relative; /* Use relative positioning */
+  left: 240px; /* Move the line to the right by 20px */
 }
+
+.second-line {
+  transform: translateY(-40px); /* Adjust the value to move the line down */
+  left: 197px; /* Move the line to the right */
+  position: relative;
+  width: 775px;
+}
+
+
 
 input[type="checkbox"] {
   margin-right: 10px;
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #888;
 }
 
 label {
